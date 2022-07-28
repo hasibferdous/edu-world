@@ -1,15 +1,6 @@
 .slider {
     filter: brightness(50%);
 }
-
-
-
-.edu-bg-info{
-    background-color: rgb(75, 174, 255);
-    
-}
-
-
 .footer {
     text-align: center;
 }
@@ -23,4 +14,23 @@
 .social i {
     height: 100px;
     width: 60px;
+}
+
+@media only screen and (max-width:688px){
+
+.registration1 {
+    font-size: 20px;
+    text-align: center;
+}
+.registration2 {
+    font-size: 10px;
+    text-align: center;
+}
+
+.join {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
 }

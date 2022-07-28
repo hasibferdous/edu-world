@@ -17,7 +17,7 @@
 <body>
 <!--nav section begins-->
 <header>
-        <nav class="navbar navbar-expand-lg fixed-top bg-light mb-5">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light mb-5 col-sm-4 col-md-12 col-lg-12">
             <div class="container pt-3">
                 <a class="navbar-brand" href="#"><h1>Edu World</h1>
                     
@@ -49,7 +49,7 @@
                         </li>
                     </ul>
                 </div>
-                <nav class="navbar bg-light">
+                <nav class="navbar bg-light d-none d-lg-block">
                     <div class="container-fluid">
                       
                       <form class="d-flex" role="search">
@@ -72,8 +72,8 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/cover/cover-1.png"  class="slider d-block w-100" alt="...">
+          <div class="carousel-item active col-lg-5 col-md-3">
+            <img src="images/cover/cover-1.png"  class="slider w-100" alt="...">
             <div class="carousel-caption position-absolute top-50 start-50 translate-middle">
               <h1>Get Started Digital 
                 Learning</h1>
@@ -82,7 +82,7 @@
                 <button type="button" class="btn btn-primary">Get Started</button>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item col-lg-5 ">
             <img src="images/cover/cover-2.jpg" class="slider d-block w-100" alt="...">
             <div class="carousel-caption position-absolute top-50 start-50 translate-middle">
                 <h1>Get Started Digital 
@@ -92,7 +92,7 @@
                 <button type="button" class="btn btn-primary">Get Started</button>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item col-lg-5">
             <img src="images/cover/cover-3.jpg" class="slider d-block w-100" alt="...">
             <div class="carousel-caption position-absolute top-50 start-50 translate-middle">
                 <h1>Get Started Digital 
@@ -113,135 +113,97 @@
         </button>
       </div>
     </div>
-
 </section>
-<!--Slider section ends-->
 <!--Courses section begins-->
 <section class="mt-5 mb-5">
     <div class="caption text-center mt-5 mb-5">
-        <h1>Discover Our Popular 
-            Courses</h1>
+        <h1>Discover Our Popular Courses</h1>
         <p>It is a long established fact that a reader will be distracted by the readable 
             content of a page when looking at its layout.</p>
-          
-      </div>
-    <div class="container d-flex flex-row mb-2">
-
-
-        
-        <div class="row w-100 me-3">
-          <div class="col">
-            <div class="d-flex flex-row mb-2">
-                <img src="images/course/course-1.png" class="card-img-top border rounded g-5 w-25" alt="...">
-                
-                <div class="card-body p-3">
-                    <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                    
-                    <p class="card-text">ome quick example text to build on the card title 
+    </div>
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2  g-4">
+        <div class="col">
+            <div class="d-flex flex-row card border border-1 shadow-lg p-1">
+                <img src="images/course/course-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title pt-3">Fundamental Of UI/UX Design</h5>
+                    <p class="card-text">Some quick example text to build on the card title 
                         and make up the bulk of the card.</p>
-                        <h6 class="text-primary">Price : 20$</h6>
+                        <h2>$20</h2>
                 </div>
-                </div>
-          </div> 
-          <div class="row">
-            <div class="col">
-                <div class="d-flex flex-row mb-2">
-                    <img src="images/course/course-3.png" class="card-img-top border rounded g-5 w-25" alt="...">
-                    
-                    <div class="card-body p-3">
-                        <h5 class="card-title">Fullstack Web Development</h5>
-                        
-                        <p class="card-text">ome quick example text to build on the card title 
-                            and make up the bulk of the card.</p>
-                            <h6 class="text-primary">Price : 20$</h6>
-                    </div>
-                    </div>
-              </div> 
             </div>
-            <div class="row">
-                <div class="col">
-                    <div class="d-flex flex-row mb-2">
-                        <img src="images/course/course-5.png" class="card-img-top border rounded g-5 w-25" alt="...">
-                        
-                        <div class="card-body p-3">
-                            <h5 class="card-title">Photography Basic Rules</h5>
-                            
-                            <p class="card-text">ome quick example text to build on the card title 
-                                and make up the bulk of the card.</p>
-                                <h6 class="text-primary">Price : 20$</h6>
-                        </div>
-                        </div>
-                  </div> 
-                </div>
         </div>
-
-
-
-
-
-
-
-
-        <div class="row w-100 me-3">
-            <div class="col">
-              <div class="d-flex flex-row mb-2">
-                  <img src="images/course/course-2.png" class="card-img-top border rounded g-5 w-25" alt="...">
-                  
-                  <div class="card-body p-3">
-                      <h5 class="card-title">Javascript Basic to advanced</h5>
-                      
-                      <p class="card-text">ome quick example text to build on the card title 
+        <div class="col">
+            <div class="d-flex flex-row card border border-0 shadow-lg p-1">
+                <img src="images/course/course-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title pt-3">Javascript Basic to advanced</h5>
+                    <p class="card-text">Some quick example text to build on the card title 
                         and make up the bulk of the card.</p>
-                        <h6 class="text-primary">Price : 20$</h6>
-                  </div>
-                  </div>
-            </div> 
-            <div class="row">
-              <div class="col">
-                  <div class="d-flex flex-row mb-2">
-                      <img src="images/course/course-4.png" class="card-img-top border rounded g-5 w-25" alt="...">
-                      
-                      <div class="card-body p-3">
-                          <h5 class="card-title">Digital Marketing</h5>
-                          
-                          <p class="card-text">ome quick example text to build on the card title 
-                            and make up the bulk of the card.</p>
-                            <h6 class="text-primary">Price : 20$</h6>
-                      </div>
-                      </div>
-                </div> 
-              </div>
-              <div class="row">
-                  <div class="col">
-                      <div class="d-flex flex-row mb-2">
-                          <img src="images/course/course-6.png" class="card-img-top border rounded g-5 w-25" alt="...">
-                          
-                          <div class="card-body p-3">
-                              <h5 class="card-title">Motion Graphics</h5>
-                              
-                              <p class="card-text">ome quick example text to build on the card title 
-                                and make up the bulk of the card.</p>
-                                <h6 class="text-primary">Price : 20$</h6>
-                          </div>
-                          </div>
-                    </div> 
-                  </div>
-          </div>
-          </div>
-          <div class="mb-5 pt-5 d-flex justify-content-center  align-items-center">
-          <button type="button" class="btn btn-primary align-items-center  mt-5 mb-5">See More Courses</button>
+                        <h2>$20</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="d-flex flex-row card border border-1 shadow-lg p-1">
+                <img src="images/course/course-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title pt-3">Fullstack Web Development</h5>
+                    <p class="card-text">Some quick example text to build on the card title 
+                        and make up the bulk of the card.</p>
+                        <h2>$20</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="d-flex flex-row card border border-1 shadow-lg p-1">
+                <img src="images/course/course-4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title pt-3">Digital Marketing</h5>
+                    <p class="card-text">Some quick example text to build on the card title 
+                        and make up the bulk of the card.</p>
+                        <h2>$20</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="d-flex flex-row card border border-1 shadow-lg p-1">
+                <img src="images/course/course-5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title pt-3">Photography Basic Rules</h5>
+                    
+                    <p class="card-text">Some quick example text to build on the card title 
+                        and make up the bulk of the card.</p>
+                        <h2>$20</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="d-flex flex-row card border border-1 shadow-lg p-1">
+                <img src="images/course/course-6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title pt-3">Motion Graphics</h5>
+                    <p class="card-text">Some quick example text to build on the card title 
+                        and make up the bulk of the card.</p>
+                        <h2>$20</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="mb-5 pt-5 d-flex justify-content-center  align-items-center">
+        <button type="button" class="btn btn-primary align-items-center  mt-5 mb-5">See More Courses</button>
         </div>
         </div>
 </section>
 <!--Courses section ends-->
-
 <!--Join Us section begins-->
 <section style="height: 250px;background-color: rgb(75, 174, 255);" class="container rounded-3 d-flex flex-row justify-content-center align-items-center mt-5" id="subscribe">
     
     <div class="row">
         <div class="col-6 text-light">
-        <h2>Ready to join?</h2>
-        <p>It is a long established fact that a reader will be distracted by the 
+        <h2 class="registration1">Ready to join?</h2>
+        <p class="registration2">It is a long established fact that a reader will be distracted by the 
             readable content of a page when looking at its layout.</p>
             </div>
         </div>
@@ -290,17 +252,17 @@
 
 
     </div>
+
 </section>
 <!--Join Us section ends-->
-
 <!--FAQ section begins-->
 <section>
-    <div class="caption text-center mt-5 mb-5 pt-5">
-        <h1>Frequently Asked Questions</h1>
-        <p>It is a long established fact that a reader will be distracted by the readable 
-            content of a page when looking at its layout.</p>
-    </div>
-        <div class="container w-50 mt-5">
+    <div class="container w-50 mt-5">
+        <div class="caption text-center mt-5 mb-5 pt-5">
+            <h1>Frequently Asked Questions</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable 
+                    content of a page when looking at its layout.</p>
+        </div>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
@@ -381,12 +343,12 @@
               <img src="images/css-box-model.png" class=" g-5 w-50 ms-5 ps-5" alt="...">
                           
               <br><strong>Explanation of the different parts:</strong>
-<br>
-Content - The content of the box, where text and images appear<br>
-Padding - Clears an area around the content. The padding is transparent<br>
-Border - A border that goes around the padding and content<br>
-Margin - Clears an area outside the border. The margin is transparent<br><br>
-The box model allows us to add a border around elements, and to define space between elements.
+              <br>
+                Content - The content of the box, where text and images appear<br>
+                Padding - Clears an area around the content. The padding is transparent<br>
+                Border - A border that goes around the padding and content<br>
+                Margin - Clears an area outside the border. The margin is transparent<br><br>
+                The box model allows us to add a border around elements, and to define space between elements.
             </div>
           </div>
         </div>
@@ -422,7 +384,7 @@ The box model allows us to add a border around elements, and to define space bet
 <!--FAQ section ends-->
 <!--Support section begins-->
 <section>
-    <div class="container-fluid mb-5">
+    <div class="container-fluid mb-5 d-none d-lg-block d-xl-block d-none-md">
 <div class="caption text-center mt-5 mb-5 pt-5 ">
     <h1>Trusted by over 800+ companies</h1>
     <div class="d-flex flex-row justify-content-between ps-5 pe-5 g-5 mt-5">
@@ -437,28 +399,8 @@ The box model allows us to add a border around elements, and to define space bet
 </div>
 </section>
 <!--Support section ends-->
-<!--Footer section begins-->
-<footer>
-    <div class="container-fluid">
-    <div class="footer mt-5 pt-5 bg-dark w-100 pt-5 text-light">
-        <h1 class="pt-5">Edu World</h1>
-        <p>Office 41, Zawaya Buildin, Ghala Muscat, 
-
-            <br>Sultanate of Oman
-            <br>Privacy Ploicy | Terms of use</p>
 
 
-        <div class="social d-flex flex-row justify-content-center">
-            
-            <nav><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square"></i></a></nav>
-            <nav><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram-square"></i></a></nav>
-            <nav><a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter-square"></i></a></nav>
-            <nav><a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp-square"></i></a></nav>
-        </div>
-    </div>
-</div>
-</footer>
-<!--Footer section ends-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
 crossorigin="anonymous"></script>
