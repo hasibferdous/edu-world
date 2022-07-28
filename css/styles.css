@@ -2,6 +2,14 @@
     filter: brightness(50%);
 }
 
+
+
+.edu-bg-info{
+    background-color: rgb(75, 174, 255);
+    
+}
+
+
 .footer {
     text-align: center;
 }
