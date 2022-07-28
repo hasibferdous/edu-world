@@ -49,7 +49,7 @@
                         </li>
                     </ul>
                 </div>
-                <nav class="navbar bg-light d-none d-lg-block">
+                <nav class="navbar bg-light d-none d-lg-block d-md-block">
                     <div class="container-fluid">
                       
                       <form class="d-flex" role="search">
@@ -66,11 +66,6 @@
 <section class="mt-5 mb-5">
     <div class="container">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
         <div class="carousel-inner">
           <div class="carousel-item active col-lg-5 col-md-3">
             <img src="images/cover/cover-1.png"  class="slider w-100" alt="...">
@@ -124,7 +119,7 @@
 <div class="container">
     <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2  g-4">
         <div class="col">
-            <div class="d-flex flex-row card border border-1 shadow-lg p-1">
+            <div class="card border d-flex flex-row  border-1 shadow-lg p-1">
                 <img src="images/course/course-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title pt-3">Fundamental Of UI/UX Design</h5>
@@ -198,18 +193,18 @@
 </section>
 <!--Courses section ends-->
 <!--Join Us section begins-->
-<section style="height: 250px;background-color: rgb(75, 174, 255);" class="container rounded-3 d-flex flex-row justify-content-center align-items-center mt-5" id="subscribe">
+<section style="height: 250px;background-color: rgb(75, 174, 255);" class="join container rounded-3 d-flex flex-row justify-content-center align-items-center  " id="subscribe">
     
     <div class="row">
-        <div class="col-6 text-light">
-        <h2 class="registration1">Ready to join?</h2>
-        <p class="registration2">It is a long established fact that a reader will be distracted by the 
+        <div class="registration col-6 text-light mt-5">
+        <h2 class="registration1 ms-3">Ready to join?</h2>
+        <p class="registration2 ms-3">It is a long established fact that a reader will be distracted by the 
             readable content of a page when looking at its layout.</p>
             </div>
         </div>
             <div class="row">
                 <div class="col-6">
-            <button type="button" class="btn btn-light ps-5 pe-5 fw-bold text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register  Now</button>
+            <button type="button" class="btn btn-light ps-5 pe-5 fw-bold text-primary ms-5" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register  Now</button>
          
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog">
@@ -399,8 +394,24 @@
 </div>
 </section>
 <!--Support section ends-->
-
-
+<!--Footer section begins-->
+<footer>
+    <div class="container-fluid">
+    <div class="footer mt-5 pt-5 bg-dark w-100 pt-5 text-light">
+        <h1 class="pt-5">Edu World</h1>
+        <p>Office 41, Zawaya Buildin, Ghala Muscat, 
+            <br>Sultanate of Oman
+            <br>Privacy Ploicy | Terms of use</p>
+        <div class="social d-flex flex-row justify-content-center">
+            <nav><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square"></i></a></nav>
+            <nav><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram-square"></i></a></nav>
+            <nav><a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter-square"></i></a></nav>
+            <nav><a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp-square"></i></a></nav>
+        </div>
+    </div>
+</div>
+</footer>
+<!--Footer section ends-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
 crossorigin="anonymous"></script>
